@@ -48,6 +48,7 @@ public class Question4 {
             bill = bill + cost;
         }
 
-        if (bill)
+        if (bill>=5000) System.out.println("Bill = " + 0.1*bill);
+        else System.out.println("Bill = " + bill);
     }
 }
